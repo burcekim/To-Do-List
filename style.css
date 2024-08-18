@@ -16,6 +16,7 @@
     background: #fff;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
+    border-radius: 10px;
 }
 .todo-app h2{
     color: #002765;
@@ -26,4 +27,12 @@
 .todo-app h2 img{
     width: 30px;
     margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
 }
